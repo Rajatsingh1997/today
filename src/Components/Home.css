@@ -1,0 +1,150 @@
+.maindiv{
+    background-color: #f8fafb;
+}
+.navbr{
+    width: 960;
+    height: 50;
+    /* background-color: #f8fafb; */
+}
+.main{
+    /* background-color: #f8fafb; */
+   margin-left: 10px;
+}
+.logo {
+    margin-left: 32px;
+    margin-top: 15px;
+}
+hr{
+    width: 100%;
+}
+.photo {
+  width: 26px;
+  height: 26px;
+  margin-top: 12px;
+  margin-left: 530px;
+  border-radius: 25px;
+  opacity: 1;
+}
+.centre{
+    min-width: 120px;
+}
+.Andri{
+  
+    padding-top: 21px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    color: black;
+  
+}
+.navicon{
+    margin-top: 14px;
+    margin-left: 4px;
+    margin-right: 27px;
+}
+
+
+.left {
+  margin-top: 40px;
+  margin-top: 70px;
+  width: 326;
+  height: 382;
+}
+.second-colum{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.middle {
+  margin-top: 56px;
+  text-align: center;
+  font-size: 30px;
+  color: #182c40;
+  font-weight: 300;
+  font-family: "Heebo"; 
+}
+p{
+    font-family: "Heebo-Regular";
+    font-size: 18px;
+    text-align: center;   
+    margin-block-end: 0 !important;
+    margin-block-start: 0;
+}
+.txt {
+  width: 229px;
+  height: 32px;
+  opacity: 1;
+  fill: #182c40;
+  font-family: "heebo-light";
+  font-size: 50px;
+  text-align: left;
+  top: 94px;
+  width: 229px;
+  height: 25px;
+}
+
+.right {
+  margin: auto;
+  margin-top: 88px;
+  width: 262;
+  height: 295;
+  margin-right: 13px;
+}
+.box{
+   
+    border: .5px solid black;
+    margin: auto;
+    margin-top:20px;
+}
+.botm{
+    margin:auto;
+    margin-bottom: 6px;
+    width: 255px;
+    height: 156px;
+    text-align: center;
+    margin-top: 18px;
+    border: 2px solid black;
+    background-color: white;
+}
+.complete{
+    margin-left: 33%;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 117px;
+}
+span{
+    margin-left: 3px;
+}
+.info{
+    margin-left: 8px;
+    margin-top: 40px;
+
+}
+.inbox{
+    margin-top: 22px;
+}
+h6{
+    margin-top: 6px !important;
+    height: 13px;
+}
+
+.cde{
+    color: blue;
+}
+.efg{
+    color: blue;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 6px;
+}
+.zab{
+    font-family: "Heebo-Regular";
+    font-size: 16px; 
+    margin-left: 5px;
+}
+.icn{
+    margin-left: 6px;
+}
+.icn1{
+    margin-left: 12px;
+}
