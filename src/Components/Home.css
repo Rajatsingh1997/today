@@ -4,18 +4,21 @@
 .navbr{
     width: 960;
     height: 50;
-    /* background-color: #f8fafb; */
 }
 .main{
-    /* background-color: #f8fafb; */
    margin-left: 10px;
 }
 .logo {
     margin-left: 32px;
     margin-top: 15px;
 }
-hr{
-    width: 100%;
+.hrone{
+    height:2px;
+}
+.hrtwo{
+    height:2px;
+    background-color:#b9dafb;
+    margin-left: -6px;
 }
 .photo {
   width: 26px;
@@ -33,7 +36,7 @@ hr{
     padding-top: 21px;
     padding-bottom: 20px;
     margin-left: 10px;
-    color: black;
+    color: #85909b;
   
 }
 .navicon{
@@ -46,47 +49,56 @@ hr{
 .left {
   margin-top: 40px;
   margin-top: 70px;
-  width: 326;
-  height: 382;
+  width: 326px;
+  height: 382px;
+  margin-left: -2%;
 }
 .second-colum{
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
 .middle {
-  margin-top: 56px;
+  margin-top: 44px;
   text-align: center;
   font-size: 30px;
   color: #182c40;
   font-weight: 300;
-  font-family: "Heebo"; 
+  font-family: "Heebo";
+  width: 100% 
+}
+.secndmiddle{
+    font-family: "Heebo-Regular";
+    font-size: 14px;
+    /* color: #b8bdc8; */
+    color: #626f7d;
 }
 p{
     font-family: "Heebo-Regular";
-    font-size: 18px;
+   
     text-align: center;   
     margin-block-end: 0 !important;
     margin-block-start: 0;
 }
 .txt {
-  width: 229px;
-  height: 32px;
+  width: 260px;
+  height: 34px;
   opacity: 1;
-  fill: #182c40;
   font-family: "heebo-light";
-  font-size: 50px;
+  font-size: 60px;
   text-align: left;
   top: 94px;
   width: 229px;
   height: 25px;
+  color: #7a8591;
 }
 
 .right {
   margin: auto;
   margin-top: 88px;
-  width: 262;
-  height: 295;
-  margin-right: 13px;
+  width: 262px;
+  height: 295px; 
+  margin-right: 4px;
+  margin-left: -8px;
 }
 .box{
    
@@ -96,55 +108,93 @@ p{
 }
 .botm{
     margin:auto;
-    margin-bottom: 6px;
-    width: 255px;
-    height: 156px;
+    margin-bottom: 14px;
+    width: 306px;
+    height: 180px;
     text-align: center;
     margin-top: 18px;
-    border: 2px solid black;
+    border: 2px solid #e4efff;
     background-color: white;
+    border-style: dashed;
+    border-radius: 4px;
 }
 .complete{
     margin-left: 33%;
     border-radius: 3px;
-    background-color: blue;
+    background-color:#3e89fa;
     color: white;
     margin-bottom: 117px;
+   
 }
 span{
     margin-left: 3px;
 }
 .info{
-    margin-left: 8px;
-    margin-top: 40px;
+  
+    margin-left: 25px;
+    margin-top: 25px;
+    color: #d3d7df;
+    margin-right: 34px;
 
 }
 .inbox{
-    margin-top: 22px;
+    margin-top: 31px;
+    width: 36px;
+    height: 24px;
 }
-h6{
-    margin-top: 6px !important;
+.head{
+    margin-top: 10px !important;
     height: 13px;
+    font-size: 18px;
+    opacity: 1;
+    font-family: "heebo-regular";
+}
+.abc{
+    margin-top: 11px;
+    font-size: 18px;
+    font-family: "heebo-regular";
+    height: 5px; 
+    text-align: center;
 }
 
 .cde{
-    color: blue;
+  
+    margin-bottom: 41px;
+    font-family: "heebo-regular";
+    font-size: 14px;
+    margin-top: 19px;
+  
 }
 .efg{
-    color: blue;
-    font-family: "Heebo-Regular";
-    font-size: 16px;
-    margin-right: 10px;
-    margin-left: 6px;
-}
-.zab{
-    font-family: "Heebo-Regular";
-    font-size: 16px; 
+    color: #b9dafb;
+    font-family: "heebo-regular";
+    font-size: 15px;
+    /* margin-right: 10px; */
     margin-left: 5px;
 }
+.zab{
+    font-family: "heebo-regular";
+    font-size: 15px; 
+    margin-left: 5px;
+  
+}
 .icn{
-    margin-left: 6px;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
 }
 .icn1{
-    margin-left: 12px;
+    margin-left: 5px;
+    width: 12px;
+    height: 12px;
+    color: #aecefd;
+}
+.upload{
+    color: #aecefd;
+}
+.profile{
+        width: 62px;
+        height: 77px;
+        margin-left: 61px;
+        margin-top: 20px;
 }
