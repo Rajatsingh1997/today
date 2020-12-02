@@ -51,7 +51,7 @@ function Home() {
 
             <div className="info">
               <Row>
-                <Col>
+                <Col className="cursr1">
                   <CgProfile
                     size="15"
                     className={toggle ? "icn" : "icn1"}
@@ -68,11 +68,11 @@ function Home() {
                     className={toggle ? "hrone" : "hrtwo"}
                     onClick={(e) => {
                       setToggle(true);
-                      }}
-                  />  
+                    }}
+                  />
                 </Col>
 
-                <Col>
+                <Col className="cursr1">
                   <AiOutlineCamera
                     size="15"
                     className={toggle ? "icn1" : "icn"}
@@ -94,51 +94,53 @@ function Home() {
             </div>
 
             <div className="botm">
-            {toggle? (<Form>
-                          <Form.Row>
-                            <Form.Group>
-                              <label htmlFor="file-input">
-                              <img className="profile" src={photo}/>
-                              <span className="Andri">Andri Brigssion</span>
-                              </label>
-                            </Form.Group>
-                          </Form.Row>
-                        </Form>):(
-                      
-          
-              <div {...getRootProps()}>
-                <input className="dropzone-input" {...getInputProps()} />
-                <div className="text-center">
-                  {isDragActive ? (
-                    <p className="dropzone-content">
-                      <img className="inbox" src={inbox} />
-                      <p className="head">Drag & Drop </p>
-                      <p className="abc">or</p>
-                      <p className="cde">
-                        <span className="upload" href="#">
-                          Upload
-                        </span>{" "}
-                        from your local disk
+              {!toggle ? (
+                <Form>
+                  <Form.Row>
+                    <Form.Group>
+                      <label htmlFor="file-input">
+                        <img className="profile" src={photo} />
+                        <span className="Andri">Andri Brigssion</span>
+                      </label>
+                    </Form.Group>
+                  </Form.Row>
+                </Form>
+              ) : (
+                <div {...getRootProps()}>
+                  <input className="dropzone-input" {...getInputProps()} />
+                  <div className="text-center">
+                    {isDragActive ? (
+                      <p className="dropzone-content">
+                        <img className="inbox" src={inbox} />
+                        <p className="head">Drag & Drop </p>
+                        <p className="abc">or</p>
+                        <p className="cde">
+                          <span className="upload" href="#">
+                            Upload
+                          </span>{" "}
+                          from your local disk
+                        </p>
                       </p>
-                    </p>
-                  ) : (
-                    <p className="dropzone-content">
-                      <img className="inbox" src={inbox} />
-                      <p className="head">Drag & Drop </p>
-                      <p className="abc">or</p>
-                      <p className="cde">
-                        <span className="upload" href="#">
-                          Upload
-                        </span>{" "}
-                        from your local disk
+                    ) : (
+                      <p className="dropzone-content">
+                        <img className="inbox" src={inbox} />
+                        <p className="head">Drag & Drop </p>
+                        <p className="abc">or</p>
+                        <p className="cde">
+                          <span className="upload" href="#">
+                            Upload
+                          </span>{" "}
+                          from your local disk
+                        </p>
                       </p>
-                    </p>
-                  )}
+                    )}
+                  </div>
                 </div>
-              </div>
               )}
             </div>
-            <button className="complete">Complete</button>
+            <button className="complete">
+              <span className="textbtn">Complete</span>
+            </button>
           </Col>
           <Col>
             <img className="right" src={right} />
